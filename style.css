@@ -1,0 +1,166 @@
+.navbar{
+	border-bottom: 1px 
+	solid grey;
+}
+.top{
+	background-color: #000;
+}
+.top2{
+	
+	background-image:
+	 linear-gradient(rgba(0,0,0,0.8), 
+	 rgba(0,0,0,0.8)),
+	 url(./image/image-hero.jpg);
+	background-size: contain;
+	background-position: center;
+	background-attachment: fixed;
+}
+.first-container h2{
+	font-size: 60px;
+}
+.btn1{
+	background-color:  #fd7e14;
+}
+.logo{
+	font-size: 25px;
+}
+.fa-arrow-right{
+	color: orange;
+}
+.card-con a{
+	color: #000;
+	text-decoration: none;
+}
+li a{
+	font-size: 17px;
+}
+.card-con{
+	justify-content: space-around;
+}
+.card{
+	border: none;
+	background-color: #f1f1f1;
+	position: relative;
+}
+.card img{
+ width: 150px;
+}
+.third-con{
+	background-color: orangered;
+	background-image: 
+	url(./image/pattern-circles.svg);
+	background-size: cover;
+	height: 95vh;
+	overflow: hidden;
+	border-radius: 20px;;
+}
+.third-con .row{
+	justify-content: space-between;
+}
+.big-speaker img{
+	width: 500px;
+}
+.p-container h1{
+font-size: 60px;
+}
+.fourth-con{
+	background-image:
+ url(./image/image-speaker-zx7.jpg);
+	background-size:cover;
+	background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+}
+.fifth{
+	justify-content: space-evenly;
+}
+.fifth-one img{
+border-radius: 20px;
+}
+.fifth-two{
+	background-color: #f1f1f1;
+	border-radius: 20px;
+	padding: 100px;
+}
+span{
+	color: orange;
+}
+.sixth p{
+	line-height: 1.7;
+}
+.sixth-sec img{
+	border-radius: 20px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer ul{
+list-style: none;
+}
+footer li a:hover{
+	text-decoration: none;
+	color: orange;
+}
+footer li a{
+	font-weight: 600;
+}
+.icons{
+	text-align: right;
+	margin-top: 100px;
+}
+.icons i{
+	padding-left: 10px;
+	font-size: 40px;
+}
+@media (max-width: 576px) {
+	.logo{
+		font-size: 22px;
+	}
+	li a{
+		font-size: 14px;
+	}
+	.first-container{
+		text-align: center;
+	}
+	.first-container h2{
+		font-size: 30px;
+	}
+	.top2{
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.third-con{
+		padding: 20px;
+		height: 100vh;
+	}
+	.card{
+		margin-top: 50px;
+	}
+	.big-speaker img{
+		width: 250px;
+	}
+	.p-container h1{
+		font-size: 30px;
+		}
+		.fifth-two{
+			padding: 50px;
+		}
+		.footer-row{
+ text-align: center;
+	flex-direction: column;
+		}
+
+		footer ul li{
+margin-top: 20px;
+		}
+		footer ul li a{
+			margin-top: 20px;
+			font-size: 22px;
+		}
+
+		.icons{
+			text-align: center;
+		}
+}
